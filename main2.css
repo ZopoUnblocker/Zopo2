@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(35deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 20%;
+    height: fit-content;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #757575;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    padding: 18px 20px;
+  }
+  
+  h1{
+    color: #757575;
+    text-align: center;
+  }
+  h2{
+    color: #757575;
+    text-align: center;
+  }
+  
+  
+  a{
+    height: 30px;
+    color: #757575;
+    text-align: center;
+  
+  }
+  .content{
+  
+      text-align: center;
+      color: #757575;
+  }
+  .link{
+    height: 400px;
+    text-align: center;
+  }
