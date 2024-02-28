@@ -17,7 +17,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        doc.title = "Google Docs"
+        doc.title = "Google"
         link.rel = "icon";
         link.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
         iframe.src = location.href
@@ -71,7 +71,7 @@ document.addEventListener('keypress', function (e) {
       const style1 = iframe1.style;
       const link1 = doc1.createElement('link');
 
-      doc1.title = 'Google Docs';
+      doc1.title = 'Google';
       iframe1.src = exploit;
       style1.position = 'fixed';
       style1.border = style1.outline = 'none';
